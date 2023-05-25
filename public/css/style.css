@@ -1,0 +1,84 @@
+.navbar .active, .navbar-nav .nav-link.active{
+    /* border:1px solid black; */
+    color: red;
+}
+body {
+    background-color: #B0BEC5;
+    background-repeat: no-repeat;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*  border: 1px solid black;*/
+  height: 100vh;
+}
+.box form {
+  width: 350px;
+  padding: 10px;
+}
+.box form center h3{
+    letter-spacing: 2px;
+    color: yellow;
+}
+.event-card{
+/*  border: 1px solid black;*/
+}
+.event-card .card-header{
+/*  border: 1px solid black;*/
+  padding: 0px;
+}
+.event-card .card-header .col-11{
+/*  border: 1px solid black;*/
+  padding: 12px 0px 0px 22px!important;
+}
+.mybtn{
+/*  border: 1px solid black;*/
+  padding: 0px;
+  font-size: 30px;
+  margin: 0px;
+  color: gray;
+}
+.event-card .card-header .row .col-1 a.mybtn:active, .event-card .card-header .row .col-1 a.mybtn:focus{
+  border: 1px solid transparent;
+}
+
+.danger-alert{
+/*  border:1px solid black;*/
+  padding: 4px;
+}
+.my-search{
+  width:40%;
+}
+.search{
+  position: absolute;
+  top: 47px;
+  width: 33.5%;
+  z-index: 1;
+  right:62px;
+  height: 400px;
+  background-color: #D3D3D3;
+  display: none;
+  border-radius: 7px;
+
+}
+
+@media only screen and (max-width: 987px)  {
+  .my-search{
+/*    border: 1px solid black;*/
+    width: 100%;
+  }
+  .search{
+  position: absolute;
+  top: 297px;
+  width: 96%;
+  z-index: 1;
+  right:12px;
+  height: 400px;
+  background-color: #D3D3D3;
+  display: none;
+  border-radius: 7px;
+
+}
+}
